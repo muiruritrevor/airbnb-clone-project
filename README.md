@@ -119,7 +119,7 @@ Hosts can **create, edit, and manage property listings**, including descriptions
 Guests can **search for available properties and make reservations** for specific dates. The system automatically prevents double bookings and ensures availability.
 
 ### **4. Payment Processing**
-Secure payment gateways allow guests to **pay for their bookings** using methods like credit cards or PayPal. Transactions are encrypted to prevent fraud and unauthorized access.
+Secure payment gateways allow guests to **pay for their bookings**. Transactions are encrypted to prevent fraud and unauthorized access.
 
 ### **5. Review System**
 Guests can **rate and review properties** based on their stay experience. Hosts receive feedback, helping improve property quality while guiding future guests in decision-making.
@@ -141,49 +141,49 @@ Automates **building, testing, and deployment** processes using tools like **Git
 - Ensures users log in before accessing restricted resources.
 - Prevents unauthorized access to accounts.
 
-* Protects user credentials and secures private data from unauthorized access.
+*Protects user credentials and secures private data from unauthorized access.
 
 #### 2. **Authorization**
 - Role-based access control (**RBAC**) determines user permissions.
 - Ensures **guests**, **hosts**, and **admins** have appropriate access.
 - Restricts sensitive operations (e.g., property modifications).
 
-* Prevents unauthorized users from making changes or accessing confidential information.
+*Prevents unauthorized users from making changes or accessing confidential information.
 
 #### 3. **Rate Limiting & Throttling**
 - Limits the number of API requests **per user/IP** to prevent abuse.
 - Protects against **DDoS (Distributed Denial of Service) attacks**.
 - Implemented using **API gateways** or tools like **Redis**.
 
-* Prevents excessive API usage, ensuring server stability and availability.
+*Prevents excessive API usage, ensuring server stability and availability.
 
 #### 4. **Data Encryption**
 - **TLS/SSL** encryption secures data in transit.
 - **AES encryption** ensures sensitive data (e.g., passwords & payments) is safely stored.
 - Avoids **plain-text storage** of credentials.
 
-* Keeps user data safe from interception or leakage.
+*Keeps user data safe from interception or leakage.
 
 #### 5. **Input Validation & Sanitization**
 - Prevents **SQL injection**, **XSS (Cross-site scripting)**, and other exploits.
 - Uses strict validation for user inputs.
 - Escapes or removes harmful characters before processing requests.
 
-* Protects against malicious attacks targeting APIs via untrusted inputs.
+*Protects against malicious attacks targeting APIs via untrusted inputs.
 
 #### 6. **Secure Payment Handling**
 - Payments are processed through **trusted third-party gateways** (e.g., Stripe, PayPal).
 - Implements **tokenized transactions** for added security.
 - Monitors and logs suspicious payment activities.
 
-* Ensures financial transactions remain secure and prevents fraud.
+*Ensures financial transactions remain secure and prevents fraud.
 
 #### 7. **Logging & Monitoring**
 - Tracks API usage and security events.
 - Detects unauthorized access attempts via **audit logs**.
 - Uses tools like **Splunk**, **ELK Stack**, or **CloudWatch**.
 
-* Helps detect and respond to threats in real time
+*Helps detect and respond to threats in real time
 
 ## CI/CD Pipeline
 Automates building, testing and deployment for a seamless workflow.
